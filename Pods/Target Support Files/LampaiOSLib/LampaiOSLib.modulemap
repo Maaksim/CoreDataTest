@@ -1,0 +1,6 @@
+framework module LampaiOSLib {
+  umbrella header "LampaiOSLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

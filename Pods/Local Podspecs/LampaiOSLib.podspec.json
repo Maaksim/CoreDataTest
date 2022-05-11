@@ -1,0 +1,35 @@
+{
+  "name": "LampaiOSLib",
+  "version": "0.1.0",
+  "summary": "It is a library for Lampa developers",
+  "description": "LampaiOSLib is an awesome library for Lampa developers. This library should make your life easier. So good luck.",
+  "homepage": "https://bitbucket.org/lampa_work/lampaioslib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maksym Vitovych": "m.vitovych@lampalampa.net"
+  },
+  "source": {
+    "git": "https://bitbucket.org/lampa_work/lampaioslib.git",
+    "tag": "0.1.0"
+  },
+  "default_subspecs": "Extensions",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "LampaiOSLib/**/*.swift",
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Extensions",
+      "source_files": "LampaiOSLib/Extensions/**/*"
+    },
+    {
+      "name": "PhotoPicker",
+      "source_files": "LampaiOSLib/PhotoPicker/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}

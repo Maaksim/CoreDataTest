@@ -1,0 +1,21 @@
+PODS:
+  - LampaiOSLib/PhotoPicker (0.1.0)
+
+DEPENDENCIES:
+  - LampaiOSLib/PhotoPicker (from `https://bitbucket.org/lampa_work/lampaioslib`)
+
+EXTERNAL SOURCES:
+  LampaiOSLib:
+    :git: https://bitbucket.org/lampa_work/lampaioslib
+
+CHECKOUT OPTIONS:
+  LampaiOSLib:
+    :commit: a0669884d08b8517d52aaa1de8b9d26731c052b3
+    :git: https://bitbucket.org/lampa_work/lampaioslib
+
+SPEC CHECKSUMS:
+  LampaiOSLib: 012e64f9e46025812b60f5534a2741781fb9efb3
+
+PODFILE CHECKSUM: f9082e1481d787c84f4fe616ba8c0eb7a0fa3054
+
+COCOAPODS: 1.11.2

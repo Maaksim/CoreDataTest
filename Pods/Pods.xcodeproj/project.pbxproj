@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2013511616046FB92B5E28D6C4A7DDDA /* Pods-TestCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2004033869073307E102D7B9780239DD /* Pods-TestCoreData-dummy.m */; };
+		287131171751A29C7BD8277489DEA276 /* LampaiOSLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCCA3FCB82329F6C296E77DB7A0FD9B /* LampaiOSLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463D3421A368A7A62EA03A719CD75032 /* LampaiOSLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F72FF4B6DE2A28E556FDFEF77C2E5 /* LampaiOSLib-dummy.m */; };
+		5C821F26999986C0E7DC249A65D33A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		79634A6591A3F71CE0CCE2DD9B76105B /* Pods-TestCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D853B6209A51D391729CFB93145513E /* Pods-TestCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7990142ECEB556290C418D506A650BCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D90F32BAC356DA87ED6F79E2338F415A /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84969A8C3729A249269D1B79F075231 /* PhotoPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7EBED210E2A667E8CEA27FB57326661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB31A4F2AA0C7803F003A166E63828E2;
+			remoteInfo = LampaiOSLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03397ED7F62BEA32D819477FC8AEEBA2 /* LampaiOSLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LampaiOSLib.debug.xcconfig; sourceTree = "<group>"; };
+		0B662D8EE92DF864122C95397579D44E /* LampaiOSLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LampaiOSLib-prefix.pch"; sourceTree = "<group>"; };
+		2004033869073307E102D7B9780239DD /* Pods-TestCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCoreData-dummy.m"; sourceTree = "<group>"; };
+		2E9342460DDACFE0DCAFE67EA6BADA51 /* Pods-TestCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCoreData.modulemap"; sourceTree = "<group>"; };
+		4E3F72FF4B6DE2A28E556FDFEF77C2E5 /* LampaiOSLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LampaiOSLib-dummy.m"; sourceTree = "<group>"; };
+		5D853B6209A51D391729CFB93145513E /* Pods-TestCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCoreData-umbrella.h"; sourceTree = "<group>"; };
+		61BE2F6B42912B432FEE418D2FFE73DF /* Pods-TestCoreData */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestCoreData"; path = Pods_TestCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E63BF026467D40C8AD56765B60322E /* Pods-TestCoreData-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCoreData-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		858100F7ED46074E7A822D86FF7EB2D6 /* LampaiOSLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LampaiOSLib-Info.plist"; sourceTree = "<group>"; };
+		88475088D38A0CEDDD65BBEBEC49EB41 /* LampaiOSLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LampaiOSLib; path = LampaiOSLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCCA3FCB82329F6C296E77DB7A0FD9B /* LampaiOSLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LampaiOSLib-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E88FE76D633586462BE02A3438C8908 /* Pods-TestCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCoreData.release.xcconfig"; sourceTree = "<group>"; };
+		A24CF34D88FC6CE761A419A5FAC53B6A /* Pods-TestCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		AF125048DA16DA0AD264531806CAC56A /* Pods-TestCoreData-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCoreData-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB636A6759F07099652D5570B0B899F8 /* Pods-TestCoreData-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCoreData-frameworks.sh"; sourceTree = "<group>"; };
+		E19CE19550D76760B3AB4A7D474124AC /* Pods-TestCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCoreData-Info.plist"; sourceTree = "<group>"; };
+		E3643DC401140A8BD53F4CBFD6BAEA44 /* LampaiOSLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LampaiOSLib.modulemap; sourceTree = "<group>"; };
+		F2BF8D864AA460855B0A0D2A9C63E0CA /* LampaiOSLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LampaiOSLib.release.xcconfig; sourceTree = "<group>"; };
+		F84969A8C3729A249269D1B79F075231 /* PhotoPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoPicker.swift; path = LampaiOSLib/PhotoPicker/PhotoPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F601395F1919BEC6F6971E28131F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7990142ECEB556290C418D506A650BCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E83012701F7819FD0E913A967B53F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C821F26999986C0E7DC249A65D33A34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CF19FD0195FD9CF789B3643429A4B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3643DC401140A8BD53F4CBFD6BAEA44 /* LampaiOSLib.modulemap */,
+				4E3F72FF4B6DE2A28E556FDFEF77C2E5 /* LampaiOSLib-dummy.m */,
+				858100F7ED46074E7A822D86FF7EB2D6 /* LampaiOSLib-Info.plist */,
+				0B662D8EE92DF864122C95397579D44E /* LampaiOSLib-prefix.pch */,
+				8CCCA3FCB82329F6C296E77DB7A0FD9B /* LampaiOSLib-umbrella.h */,
+				03397ED7F62BEA32D819477FC8AEEBA2 /* LampaiOSLib.debug.xcconfig */,
+				F2BF8D864AA460855B0A0D2A9C63E0CA /* LampaiOSLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LampaiOSLib";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F18CEC3F83286F13EB143AD2B088ACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A06F1D1EC974E0EB8D73756B3F8D14E8 /* LampaiOSLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A06F1D1EC974E0EB8D73756B3F8D14E8 /* LampaiOSLib */ = {
+			isa = PBXGroup;
+			children = (
+				F9341C3E84A04F2FB95D15BD290D3B8D /* PhotoPicker */,
+				18CF19FD0195FD9CF789B3643429A4B4 /* Support Files */,
+			);
+			name = LampaiOSLib;
+			path = LampaiOSLib;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F18CEC3F83286F13EB143AD2B088ACD /* Pods */,
+				E33B2B5D89899A9254F3F1264762B397 /* Products */,
+				D087C371809E875BAB174B3F196817A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D087C371809E875BAB174B3F196817A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC37DA9EBCE3F058E1F45C8C2689044 /* Pods-TestCoreData */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E33B2B5D89899A9254F3F1264762B397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88475088D38A0CEDDD65BBEBEC49EB41 /* LampaiOSLib */,
+				61BE2F6B42912B432FEE418D2FFE73DF /* Pods-TestCoreData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9341C3E84A04F2FB95D15BD290D3B8D /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F84969A8C3729A249269D1B79F075231 /* PhotoPicker.swift */,
+			);
+			name = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		FDC37DA9EBCE3F058E1F45C8C2689044 /* Pods-TestCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2E9342460DDACFE0DCAFE67EA6BADA51 /* Pods-TestCoreData.modulemap */,
+				AF125048DA16DA0AD264531806CAC56A /* Pods-TestCoreData-acknowledgements.markdown */,
+				71E63BF026467D40C8AD56765B60322E /* Pods-TestCoreData-acknowledgements.plist */,
+				2004033869073307E102D7B9780239DD /* Pods-TestCoreData-dummy.m */,
+				DB636A6759F07099652D5570B0B899F8 /* Pods-TestCoreData-frameworks.sh */,
+				E19CE19550D76760B3AB4A7D474124AC /* Pods-TestCoreData-Info.plist */,
+				5D853B6209A51D391729CFB93145513E /* Pods-TestCoreData-umbrella.h */,
+				A24CF34D88FC6CE761A419A5FAC53B6A /* Pods-TestCoreData.debug.xcconfig */,
+				9E88FE76D633586462BE02A3438C8908 /* Pods-TestCoreData.release.xcconfig */,
+			);
+			name = "Pods-TestCoreData";
+			path = "Target Support Files/Pods-TestCoreData";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48346DCFC793678BCB235C3E5951F478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287131171751A29C7BD8277489DEA276 /* LampaiOSLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64CCCD961EA070D8762637D103D1494 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79634A6591A3F71CE0CCE2DD9B76105B /* Pods-TestCoreData-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70F1B8471AA87D5481B8BD1CC3781B32 /* Pods-TestCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD95D56B913E31396A9E9814803E085 /* Build configuration list for PBXNativeTarget "Pods-TestCoreData" */;
+			buildPhases = (
+				A64CCCD961EA070D8762637D103D1494 /* Headers */,
+				34776D2ABF164C2E1612F8601D7C2F70 /* Sources */,
+				A3E83012701F7819FD0E913A967B53F3 /* Frameworks */,
+				A279F3F6901EF19205EB89F6FF2DCC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18D956A7BC7C3033C092BEE8B13D2D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCoreData";
+			productName = Pods_TestCoreData;
+			productReference = 61BE2F6B42912B432FEE418D2FFE73DF /* Pods-TestCoreData */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB31A4F2AA0C7803F003A166E63828E2 /* LampaiOSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC42CDC2FBD11744CAB15288EC38081 /* Build configuration list for PBXNativeTarget "LampaiOSLib" */;
+			buildPhases = (
+				48346DCFC793678BCB235C3E5951F478 /* Headers */,
+				2470C03676149BAEFBA20583EBE89C2B /* Sources */,
+				49F601395F1919BEC6F6971E28131F7F /* Frameworks */,
+				7883AE064E8EB84F63187D518F76B0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LampaiOSLib;
+			productName = LampaiOSLib;
+			productReference = 88475088D38A0CEDDD65BBEBEC49EB41 /* LampaiOSLib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E33B2B5D89899A9254F3F1264762B397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB31A4F2AA0C7803F003A166E63828E2 /* LampaiOSLib */,
+				70F1B8471AA87D5481B8BD1CC3781B32 /* Pods-TestCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7883AE064E8EB84F63187D518F76B0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A279F3F6901EF19205EB89F6FF2DCC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2470C03676149BAEFBA20583EBE89C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463D3421A368A7A62EA03A719CD75032 /* LampaiOSLib-dummy.m in Sources */,
+				D90F32BAC356DA87ED6F79E2338F415A /* PhotoPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34776D2ABF164C2E1612F8601D7C2F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2013511616046FB92B5E28D6C4A7DDDA /* Pods-TestCoreData-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E18D956A7BC7C3033C092BEE8B13D2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LampaiOSLib;
+			target = FB31A4F2AA0C7803F003A166E63828E2 /* LampaiOSLib */;
+			targetProxy = B7EBED210E2A667E8CEA27FB57326661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46D265EF1BF0776AFF07582AFB650161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E88FE76D633586462BE02A3438C8908 /* Pods-TestCoreData.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCoreData/Pods-TestCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCoreData/Pods-TestCoreData.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B426040B18AA397399A622B165D7B57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03397ED7F62BEA32D819477FC8AEEBA2 /* LampaiOSLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LampaiOSLib/LampaiOSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LampaiOSLib/LampaiOSLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LampaiOSLib/LampaiOSLib.modulemap";
+				PRODUCT_MODULE_NAME = LampaiOSLib;
+				PRODUCT_NAME = LampaiOSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5B072392FD655528E825E7509993F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24CF34D88FC6CE761A419A5FAC53B6A /* Pods-TestCoreData.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCoreData/Pods-TestCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCoreData/Pods-TestCoreData.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC88539E3A881D0D4638083442D6A535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BF8D864AA460855B0A0D2A9C63E0CA /* LampaiOSLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LampaiOSLib/LampaiOSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LampaiOSLib/LampaiOSLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LampaiOSLib/LampaiOSLib.modulemap";
+				PRODUCT_MODULE_NAME = LampaiOSLib;
+				PRODUCT_NAME = LampaiOSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD95D56B913E31396A9E9814803E085 /* Build configuration list for PBXNativeTarget "Pods-TestCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B072392FD655528E825E7509993F99 /* Debug */,
+				46D265EF1BF0776AFF07582AFB650161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC42CDC2FBD11744CAB15288EC38081 /* Build configuration list for PBXNativeTarget "LampaiOSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B426040B18AA397399A622B165D7B57C /* Debug */,
+				EC88539E3A881D0D4638083442D6A535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
